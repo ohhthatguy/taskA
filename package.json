@@ -1,0 +1,18 @@
+{
+  "name": "taska",
+  "version": "1.0.0",
+  "description": "taskA for the frontend intern position at Vrit Technology by Bhaskar Thakulla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "author": "Bhaskar Thakulla",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "tailwind-scrollbar": "^3.1.0"
+  }
+}

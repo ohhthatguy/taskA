@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.first-div{
+    @apply w-80 h-72  rounded-2xl shadow-outside px-3 py-5 bg-[#E36181];
+}
+
+.second-div{
+    @apply h-28 rounded-2xl shadow-inside bg-[#E9747F];
+}
+
+.first-section{
+    @apply mt-6 flex gap-4;
+}
+
+.circle-div{
+    @apply rounded-full h-11 w-14 shadow-circle bg-[#E9747F];
+}
+
+.second-section{
+    @apply w-full;
+}
+
+.first-line-div{
+    @apply w-full h-4 rounded-md shadow-line bg-[#E9747F];
+}
+
+.second-line-div{
+    @apply w-2/3  h-4 rounded-md mt-2 shadow-line bg-[#E9747F];
+}
+
+
+
